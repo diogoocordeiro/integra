@@ -22,7 +22,7 @@ public class Issue {
         }
     }
 
-    public void UpdateIssue(int key, JsonNode body) throws UnirestException {
+    public void UpdateIssue(String key, JsonNode body) throws UnirestException {
         HttpResponse<JsonNode> response = issue.PutRequest("issue/"+ key , body);
         if(response.getStatus() >=200 && response.getStatus() <= 204){
             System.out.println(response.getStatusText());
@@ -38,7 +38,7 @@ public class Issue {
         }
     }
 
-    public void DeleteIssue(int key) throws UnirestException{
+    public void DeleteIssue(String key) throws UnirestException{
         HttpResponse<JsonNode> response = issue.DeleteRequest("issue/" + key);
         if(response.getStatus() == 200){
             System.out.println(response.getStatusText() +" Issue deleted with success!");
@@ -60,7 +60,7 @@ public class Issue {
         }
     }
 
-    public HttpResponse<JsonNode> GetIssue(int key) throws UnirestException {
+    public HttpResponse<JsonNode> GetIssue(String key) throws UnirestException {
         HttpResponse<JsonNode> json = issue.GetRequest("issue/" + key);
         if (json.getStatus() == 200) {
             System.out.println(json.getBody().getObject().toString());
