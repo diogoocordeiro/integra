@@ -11,19 +11,81 @@ public class Project {
 
 
     public void CreateProject(JsonNode body) throws UnirestException {
-        project.PostRequest("project", body);
+       HttpResponse<JsonNode> response = project.PostRequest("project", body);
+       if (response.getStatus() >= 200 && response.getStatus() <= 201){
+           System.out.println(response.getStatusText());
+       }else if (response.getStatus() == 400){
+           System.out.println(response.getBody().getObject().toString());
+           System.out.println(response.getStatusText());
+       }else if (response.getStatus() == 401){
+           System.out.println(response.getBody().getObject().toString());
+           System.out.println(response.getStatusText());
+       }else if (response.getStatus() == 403){
+           System.out.println(response.getBody().getObject().toString());
+           System.out.println(response.getStatusText());
+       }else if (response.getStatus() == 405){
+           System.out.println(response.getBody().getObject().toString());
+           System.out.println(response.getStatusText());
+       }
     }
 
-    public void DeleteProject(int key) throws UnirestException{
-        project.DeleteRequest("project/" + key);
+    public void DeleteProject(String key) throws UnirestException{
+        HttpResponse<JsonNode> response = project.DeleteRequest("project/" + key);
+        if (response.getStatus() >= 200 && response.getStatus() <= 204){
+            System.out.println(response.getStatusText() +" Project deleted with success!");
+        }else if (response.getStatus() == 401){
+            System.out.println(response.getBody().getObject().toString());
+            System.out.println(response.getStatusText());
+        }else if (response.getStatus() == 404){
+            System.out.println(response.getBody().getObject().toString());
+            System.out.println(response.getStatusText());
+        }else if (response.getStatus() == 405){
+            System.out.println(response.getBody().getObject().toString());
+            System.out.println(response.getStatusText());
+        }
     }
 
-    public void UpdateProject(int key, JsonNode body) throws UnirestException{
-        project.PutRequest("project/" + key , body);
+    public void UpdateProject(String key, JsonNode body) throws UnirestException{
+       HttpResponse<JsonNode> response = project.PutRequest("project/" + key , body);
+       if (response.getStatus() == 200){
+           System.out.println(response.getStatusText());
+       }else if (response.getStatus() == 400){
+           System.out.println(response.getBody().getObject().toString());
+           System.out.println(response.getStatusText());
+       }else if (response.getStatus() == 401){
+           System.out.println(response.getBody().getObject().toString());
+           System.out.println(response.getStatusText());
+       }else if (response.getStatus() == 403){
+           System.out.println(response.getBody().getObject().toString());
+           System.out.println(response.getStatusText());
+       }else if (response.getStatus() == 404){
+           System.out.println(response.getBody().getObject().toString());
+           System.out.println(response.getStatusText());
+       }else if (response.getStatus() == 405){
+           System.out.println(response.getBody().getObject().toString());
+           System.out.println(response.getStatusText());
+       }
     }
 
-    public HttpResponse<JsonNode> GetProject(int key) throws UnirestException{
+    public HttpResponse<JsonNode> GetProject(String key) throws UnirestException{
         HttpResponse<JsonNode> json = project.GetRequest("project/" + key);
-        return json;
+        if (json.getStatus() == 200) {
+            System.out.println(json.getBody().getObject().toString());
+            return json;
+        }else if (json.getStatus() == 401){
+            System.out.println(json.getBody().getObject().toString());
+            System.out.println(json.getStatusText());
+            return json;
+        }else if (json.getStatus() == 404){
+            System.out.println(json.getBody().getObject().toString());
+            System.out.println(json.getStatusText());
+            return json;
+        }else if (json.getStatus() == 405){
+            System.out.println(json.getBody().getObject().toString());
+            System.out.println(json.getStatusText());
+            return json;
+        }else{
+            return json;
+        }
     }
 }

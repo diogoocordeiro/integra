@@ -1,33 +1,21 @@
+import model.Issue;
 import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.exceptions.UnirestException;
-import model.Issue;
+import model.Project;
 
 public class main {
     public static void main(String[] args) throws UnirestException {
 
-        JsonNode body = new JsonNode("\n" +
-                "    {\n" +
-                "  \"fields\": {\n" +
-                "    \"project\": {\n" +
-                "      \"key\": \"\"\n" +
-                "    },\n" +
-                "    \"summary\": \"\",\n" +
-                "    \"issuetype\": {\n" +
-                "      \"name\": \"\"\n" +
-                "    },\n" +
-                "    \"assignee\": {\n" +
-                "      \"name\": \"\"\n" +
-                "    },\n" +
-                "    \"reporter\": {\n" +
-                "      \"name\": \"\"\n" +
-                "    },\n" +
-                "    \"labels\": {\n" +
-                "    }\n" +
-                "  }\n" +
-                "}");
+        JsonNode body = new JsonNode(
+                "{\r\n    \"key\":\"NOVO\",\r\n    " +
+                        "\"name\":\"NOVO PROJETO\",\r\n    " +
+                        "\"projectTypeKey\":\"business\",\r\n    " +
+                        "\"description\":\"PROJETO TESTE\",\r\n    " +
+                        "\"leadAccountId\":\"5b36418cdab53b667c4dfbe9\",\r\n}"
+        );
 
-
-
+        Project issue = new Project();
+            issue.DeleteProject("NOVO");
 
     }
 }
