@@ -11,12 +11,12 @@ public class Main{
                 "    \"project\": {\n" +
                 "      \"key\": \"TES\"\n" +
                 "    },\n" +
-                "    \"summary\": \"MJ - IT03 - PROJNOVO\",\n" +
+                "    \"summary\": \"BRB - IT04 - PROJNOVO\",\n" +
                 "    \"issuetype\": {\n" +
                 "      \"name\": \"Problem\"\n" +
                 "    },\n" +
                 "    \"labels\": [\n" +
-                "      \"mj\"\n" +
+                "      \"brb\"\n" +
                 "    ],\n" +
                 "    \"timetracking\": {\n" +
                 "      \"originalEstimate\": \"\",\n" +
@@ -24,7 +24,7 @@ public class Main{
                 "    },\n" +
                 "    \"duedate\": \"2018-09-29\",\n" +
                 "    \"customfield_10033\": {    \n" +
-                "        \"value\": \"MJ\"\n" +
+                "        \"value\": \"BRB\"\n" +
                 "        },\n" +
                 "    \"customfield_10056\": {    \n" +
                 "      \"value\": \"Média\"\n" +
