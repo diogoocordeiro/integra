@@ -10,7 +10,7 @@ public class Project {
     Requests project = new Requests();
 
 
-    public void CreateProject(JsonNode body) throws UnirestException {
+    public void CreateProject(String body) throws UnirestException {
        HttpResponse<JsonNode> response = project.PostRequest("project", body);
        if (response.getStatus() >= 200 && response.getStatus() <= 201){
            System.out.println(response.getStatusText());
@@ -45,7 +45,7 @@ public class Project {
         }
     }
 
-    public void UpdateProject(String key, JsonNode body) throws UnirestException{
+    public void UpdateProject(String key, String body) throws UnirestException{
        HttpResponse<JsonNode> response = project.PutRequest("project/" + key , body);
        if (response.getStatus() == 200){
            System.out.println(response.getStatusText());

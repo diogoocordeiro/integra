@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08e9da42-d712-4b7c-9304-184f412bd7b3" name="Default Changelist" comment="">
+    <list default="true" id="08e9da42-d712-4b7c-9304-184f412bd7b3" name="Default Changelist" comment="quarto commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Issue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Issue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Requests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Requests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/Issue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Issue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Requests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Requests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,34 +59,43 @@
     <session id="-1685547549">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4359" />
-          <entry key="txt" value="26" />
+          <entry key="dummy" value="24" />
+          <entry key="java" value="7666" />
+          <entry key="txt" value="41" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4359" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="JAVA" value="7666" />
+          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="16" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="16" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -90,10 +103,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="-179">
+              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,10 +115,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Issue.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
+            <state relative-caret-position="229">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,10 +127,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Project.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Issue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="89" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="89" />
+            <state relative-caret-position="-538">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/Requests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,14 +166,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/GetIssue.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Classe.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Metodos.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/Requests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Project.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Issue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Connection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/DbConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/ConectDb.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Conexao.java" />
         <option value="$PROJECT_DIR$/src/main/java/main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Requests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Issue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Project.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Main.java" />
       </list>
     </option>
   </component>
@@ -172,10 +190,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="363" />
+    <option name="y" value="-12" />
+    <option name="width" value="1310" />
+    <option name="height" value="628" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -197,8 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -241,14 +257,20 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="API_SCO_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534960661054" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535388995900" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -267,9 +289,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DbConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.DbConnection" />
+      <module name="Teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Issue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="model.Issue" />
+      <module name="Teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.Main" />
       <module name="Teste" />
       <extension name="coverage">
         <pattern>
@@ -291,10 +339,14 @@
     <list>
       <item itemvalue="Application.Issue" />
       <item itemvalue="Application.main" />
+      <item itemvalue="Application.DbConnection" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
+        <item itemvalue="Application.DbConnection" />
         <item itemvalue="Application.Issue" />
       </list>
     </recent_temporary>
@@ -344,26 +396,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49799198" visible="true" weight="0.24810892" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49799198" visible="true" weight="0.27292264" />
       <window_info id="Structure" order="6" sideWeight="0.502008" side_tool="true" weight="0.2299427" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49930555" weight="0.30153322" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49930555" weight="0.30041724" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.502149" side_tool="true" weight="0.32962447" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="2" sideWeight="0.497851" visible="true" weight="0.32879046" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.497851" weight="0.32879046" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3270869" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32962447" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3991655" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32884097" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3270869" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.2698192" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -409,19 +462,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="terceiro commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/GetIssue.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Singleton.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9-sources.jar!/com/mashape/unirest/http/HttpResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="-1105">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/GetIssue.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Singleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DbConnection.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Conexao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state>
+          <caret column="14" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -430,18 +501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/Requests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="89" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="89" />
+        <state relative-caret-position="136">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -450,8 +511,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Issue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
+        <state relative-caret-position="-538">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

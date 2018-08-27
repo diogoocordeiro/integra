@@ -9,7 +9,7 @@ public class Issue {
     Requests issue = new Requests();
 
 
-    public void CreateIssue(JsonNode body) throws UnirestException {
+    public void CreateIssue(String body) throws UnirestException {
        HttpResponse<JsonNode> response = issue.PostRequest("issue", body );
         if(response.getStatus() == 201){
             System.out.println(response.getStatusText());
@@ -22,7 +22,7 @@ public class Issue {
         }
     }
 
-    public void UpdateIssue(String key, JsonNode body) throws UnirestException {
+    public void UpdateIssue(String key, String body) throws UnirestException {
         HttpResponse<JsonNode> response = issue.PutRequest("issue/"+ key , body);
         if(response.getStatus() >=200 && response.getStatus() <= 204){
             System.out.println(response.getStatusText());
