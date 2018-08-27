@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "project": {
+      "key": ""
+    },
+    "summary": "MJ - IT02 - PROJ",
+    "issuetype": {
+      "name": "Problem"
+    },
+    "assignee": {
+      "name": ""
+    },
+    "reporter": {
+      "name": ""
+    },
+    "labels": [
+      ""
+    ],
+    "timetracking": {
+      "originalEstimate": "",
+      "remainingEstimate": ""
+    },
+    "duedate": "2011-03-11",
+    "customfield_10033": {    
+        "value": "ANEEL"
+        },
+    "customfield_10056": {    
+      "value": "Média"
+    },
+	"customfield_10039": "2018-08-24" 
+    }  
+}

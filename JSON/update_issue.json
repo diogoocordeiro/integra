@@ -1,0 +1,35 @@
+{
+  "update": {
+    "summary": [
+      {
+        "set": "CNPQ - IT02 - PROJNOVO"
+      }
+    ],
+    "timetracking": [
+      {
+        "edit": {
+          "originalEstimate": "5d",
+          "remainingEstimate": "4d"
+        }
+      }
+    ],
+    "labels": [
+      {
+        "add": "cnpq"
+      },
+      {
+        "remove": "aneel"
+      }
+    ]
+  },
+  "fields": {
+    "customfield_10033": {
+            "value": "ANEEL"
+    },
+    "customfield_10056": {    
+      "value": "Média"
+    },
+	"duedate": "2018-09-04"
+	},
+	"customfield_10039": "2018-08-24" 
+}  
