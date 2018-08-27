@@ -13,7 +13,7 @@ public class Requests {
     private String password = "diogo657423";
     private String json = "application/json";
 
-    public HttpResponse<JsongitNode> GetRequest(String url) throws UnirestException {
+    public HttpResponse<JsonNode> GetRequest(String url) throws UnirestException {
         HttpResponse<JsonNode> request = Unirest.get(host + url)
                 .header("Accept", json)
                 .header("Content-Type", json)
