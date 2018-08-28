@@ -3,14 +3,8 @@
     "project": {
       "key": ""
     },
-    "summary": "MJ - IT02 - PROJ",
+    "summary": "",
     "issuetype": {
-      "name": "Problem"
-    },
-    "assignee": {
-      "name": ""
-    },
-    "reporter": {
       "name": ""
     },
     "labels": [
@@ -20,13 +14,13 @@
       "originalEstimate": "",
       "remainingEstimate": ""
     },
-    "duedate": "2011-03-11",
+    "duedate": "",
     "customfield_10033": {    
-        "value": "ANEEL"
+        "value": ""
         },
     "customfield_10056": {    
-      "value": "Média"
+      "value": ""
     },
-	"customfield_10039": "2018-08-24" 
+	"customfield_10039": "" 
     }  
 }

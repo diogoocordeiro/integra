@@ -11,7 +11,7 @@ create_issue.json:
             - remainingEstimate: Tempo Restante
         - duedate: Data para ficar pronto.
         - customfield_10033: Cliente
-            - value: (Ex.ANEEL, MJ, BRB, CAPES - Os nomes devem estar em caixa alta)
+            - value: (Ex.ANA,ANEEL,BRB,CAIXA SEGUROS,CAPES,CNPQ,DATASUS,IPHAN,MCTIC,MJ,MPOG,POOL AUTOMAÇÃO,RFB - Os nomes devem estar em caixa alta)
         - customfield_10056: Complexidade.
             - value: (Ex."Muito Baixa", "Baixa", "Média", "Alta", "Muito Alta")
         -customfield_10039: (Ex.AAAA-MM-DD) Data de Início.
@@ -31,7 +31,7 @@ update_issue.json:
             - remove: Remover etiqueta existente.
         - fields:
              - customfield_10033: Cliente
-            - value: (Ex.ANEEL, MJ, BRB, CAPES - Os nomes devem estar em caixa alta)
+            - value: (Ex.ANA,ANEEL,BRB,CAIXA SEGUROS,CAPES,CNPQ,DATASUS,IPHAN,MCTIC,MJ,MPOG,POOL AUTOMAÇÃO,RFB - Os nomes devem estar em caixa alta)
         - customfield_10056: Complexidade.
             - value: (Ex."Muito Baixa", "Baixa", "Média", "Alta", "Muito Alta")
         -customfield_10039: (Ex.AAAA-MM-DD) Data de Início.
