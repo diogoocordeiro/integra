@@ -11,16 +11,11 @@ import java.nio.file.Paths;
 
 public class Convert {
 
-            //Converte o String xml em JSON
+            //Lê e converte o arquivo XML em JSON
     public static JSONObject converter(String path) throws IOException {
-            String xml = readFile(path);
-            JSONObject json = XML.toJSONObject(xml);
+            byte[] xml = Files.readAllBytes(Paths.get(path));
+            JSONObject json = XML.toJSONObject(new String(xml));
             return json;
         }
 
-    //Lê o arquivo xml
-    public static String readFile(String path) throws IOException {
-        byte[] encoded = Files.readAllBytes(Paths.get(path));
-        return new String(encoded);
-    }
 }
