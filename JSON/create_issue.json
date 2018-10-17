@@ -7,20 +7,20 @@
     "issuetype": {
       "name": ""
     },
-    "labels": [
-      ""
-    ],
-    "timetracking": {
-      "originalEstimate": "",
-      "remainingEstimate": ""
-    },
     "duedate": "",
-    "customfield_10033": {    
-        "value": ""
-        },
-    "customfield_10056": {    
-      "value": ""
+    "customfield_10033": {
+      "value": "ANEEL"
     },
-	"customfield_10039": "" 
-    }  
+    "customfield_10056": {
+      "value": "Baixa"
+    },
+    "customfield_10090":"Sistema",
+    "customfield_10091": "Ciclo",
+    "customfield_10092": "Fase",
+    "customfield_10094": {
+      "value": "Automação"
+    },
+    "customfield_10088": "Ordem de Serviço",
+    "customfield_10089": "Iteração"
+  }
 }

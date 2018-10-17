@@ -1,4 +1,4 @@
-package utils;
+package model;
 
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;

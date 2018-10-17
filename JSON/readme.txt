@@ -10,11 +10,18 @@ create_issue.json:
             - originalEstimate: Estimativa de Tempo
             - remainingEstimate: Tempo Restante
         - duedate: Data para ficar pronto.
-        - customfield_10033: Cliente
+        - customfield_10033: Cliente.
             - value: (Ex.ANA,ANEEL,BRB,CAIXA SEGUROS,CAPES,CNPQ,DATASUS,IPHAN,MCTIC,MJ,MPOG,POOL AUTOMAÇÃO,RFB - Os nomes devem estar em caixa alta)
         - customfield_10056: Complexidade.
             - value: (Ex."Muito Baixa", "Baixa", "Média", "Alta", "Muito Alta")
-        -customfield_10039: (Ex.AAAA-MM-DD) Data de Início.
+        - customfield_10039: (Ex.AAAA-MM-DD) Data de Início.
+        - customfield_10090: Sistema.
+        - customfield_10091: Ciclo.
+        - customfield_10092: Fase.
+        - customfield_10093: Atribuir a.
+        - customfield_10094: Pool.
+        - customfield_10088: Ordem de serviço.
+        - customfield_10089: Iteração.
 
 ************************************************************************************************
 
@@ -26,7 +33,7 @@ update_issue.json:
             - edit:
                 - originalEstimate: Estimativa de Tempo
                 - remainingEstimate: Tempo Restante
-        - labels: 
+        - labels:
             - add: Adicionar novas etiquetas.
             - remove: Remover etiqueta existente.
         - fields:
@@ -36,7 +43,13 @@ update_issue.json:
             - value: (Ex."Muito Baixa", "Baixa", "Média", "Alta", "Muito Alta")
         -customfield_10039: (Ex.AAAA-MM-DD) Data de Início.
         - duedate: Data para ficar pronto.
-
+        - customfield_10090: Sistema.
+        - customfield_10091: Ciclo.
+        - customfield_10092: Fase.
+        - customfield_10093: Atribuir a.
+        - customfield_10094: Pool.
+        - customfield_10088: Ordem de serviço.
+        - customfield_10089: Iteração.
 ************************************************************************************************
 
 create_project.json:

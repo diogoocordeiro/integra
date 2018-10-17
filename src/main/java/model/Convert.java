@@ -1,4 +1,4 @@
-package utils;
+package model;
 
 import org.json.JSONObject;
 import org.json.XML;
