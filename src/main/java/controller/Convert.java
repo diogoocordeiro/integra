@@ -1,4 +1,4 @@
-package model;
+package controller;
 
 import org.json.JSONObject;
 import org.json.XML;
