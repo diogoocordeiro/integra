@@ -10,13 +10,13 @@ import org.json.simple.parser.ParseException;
 
 public class Read {
         public JSONObject ler(String path) {
-            JSONObject qlqr = new JSONObject();
+            JSONObject json = new JSONObject();
             JSONParser parser = new JSONParser();
 
             try {
                 Object obj = parser.parse(new FileReader(path));
                 JSONObject jsonObject = (JSONObject) obj;
-                qlqr = jsonObject;
+                json = jsonObject;
 
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
@@ -27,6 +27,6 @@ public class Read {
             }
 
 
-            return qlqr;
+            return json;
     }
 }
