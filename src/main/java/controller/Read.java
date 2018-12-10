@@ -8,6 +8,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import org.json.simple.parser.ParseException;
 
+// identifica e lê os arquivos ".json"
 public class Read {
         public JSONObject ler(String path) {
             JSONObject json = new JSONObject();
