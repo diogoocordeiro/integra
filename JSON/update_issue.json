@@ -1,0 +1,35 @@
+{
+  "update": {
+    "summary": [
+      {
+        "set": ""
+      }
+    ],
+    "timetracking": [
+      {
+        "edit": {
+          "originalEstimate": "",
+          "remainingEstimate": ""
+        }
+      }
+    ],
+    "labels": [
+      {
+        "add": ""
+      },
+      {
+        "remove": ""
+      }
+    ]
+  },
+  "fields": {
+    "customfield_10033": {
+            "value": ""
+    },
+    "customfield_10056": {    
+      "value": ""
+    },
+	"duedate": ""
+	},
+	"customfield_10039": "" 
+}  
