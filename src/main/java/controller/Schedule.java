@@ -15,6 +15,7 @@ public class Schedule extends TimerTask {
     Read read = new Read();
     FtpConnect ftpc = new FtpConnect();
     List filenames;
+    final String dir = System.getProperty("user.dir");
 
     @Override
     public void run() {
@@ -36,7 +37,7 @@ public class Schedule extends TimerTask {
 
         // Especificar caminho do diretório
         for (int i = 0; i < filenames.size();i ++) {
-            JSONObject body = read.ler("C:/java_api/dir/" + filenames.get(i) );
+            JSONObject body = read.ler( dir + "/dir/" + filenames.get(i) );
 
             // Criar nova Tarefa
             try {
