@@ -10,7 +10,7 @@ public class Main {
         //Schedule 5 minutos
         Schedule schedule = new Schedule();
         Timer time = new Timer();
-        time.scheduleAtFixedRate(schedule, 0, 10000);
+        time.scheduleAtFixedRate(schedule, 0, 300000);
     }
 
 }
