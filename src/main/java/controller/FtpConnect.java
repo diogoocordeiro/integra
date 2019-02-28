@@ -72,7 +72,7 @@ public class FtpConnect {
 
                             if (ftp.storeFile(filename, arqEnviar)) {
 
-                                System.out.println("Arquivo armazenado com sucesso!");
+                                System.out.println("Arquivo armazenado com sucesso em " + dir +" !");
 
                                 ftp.changeWorkingDirectory("../jira");
 
